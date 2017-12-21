@@ -242,6 +242,10 @@ class VertcoinKeypair(BitcoinKeypair):
 
 class ReddcoinKeypair(BitcoinKeypair):
     _pubkeyhash_version_byte = 61
+    
+        
+class NavcoinPublicKey(BitcoinPublicKey):
+    _version_byte = 20
 
 # TO DO:
 # auroracoin
