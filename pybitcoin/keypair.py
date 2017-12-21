@@ -245,7 +245,7 @@ class ReddcoinKeypair(BitcoinKeypair):
     
         
 class NavcoinPublicKey(BitcoinPublicKey):
-    _version_byte = 20
+    _version_byte = 53
 
 # TO DO:
 # auroracoin

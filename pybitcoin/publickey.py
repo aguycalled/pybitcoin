@@ -174,4 +174,4 @@ class NamecoinPublicKey(BitcoinPublicKey):
     
     
 class NavcoinPublicKey(BitcoinPublicKey):
-    _version_byte = 20
+    _version_byte = 53
