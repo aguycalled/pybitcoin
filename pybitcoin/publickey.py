@@ -171,3 +171,7 @@ class LitecoinPublicKey(BitcoinPublicKey):
 
 class NamecoinPublicKey(BitcoinPublicKey):
     _version_byte = 52
+    
+    
+class NavcoinPublicKey(BitcoinPublicKey):
+    _version_byte = 20
